@@ -1,0 +1,72 @@
+html{background-image: url(img/sustainable-living-environmentalist-hand-holding-green-earth-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Noto Sans Lao', sans-serif;
+}
+h1{
+    font-size: 50px;
+    color: hsl(243, 92%, 44%);
+    -webkit-text-stroke: 1px black;
+    text-align: center;
+    margin-top: 20px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.gallery img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.gallery img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.gallery img:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+p{
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 2000px;
+    text-align: center;
+    color: lab(58.98% 92.49 -63.13);
+}
+p{
+    color: hsl(243, 92%, 44%);
+    -webkit-text-stroke: 1px black;
+
+}
+p{
+    font-size: 40px;
+}
+p{
+ display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
